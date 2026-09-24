@@ -1,14 +1,11 @@
 # write a function named check_even_odd that takes oneinteger as input 
 # and prints whether the no. is even or odd.
-def check_even_odd():
-    marks=[2,3,4,5,6]
-    for i in marks :
-     if i%2==0:
-       print("this is an even num",i)
+def check_even_odd(num):
+    if num%2==0:
+       print("this is an even num",num)
     else:
-        print("this is an odd num",i)
-
-(check_even_odd())
+       print("this is an odd num",num)
+(check_even_odd(5))
 
 #write a function named find_largest(a,b) that returns the largest number.
 def find_largest(a,b):
